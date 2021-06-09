@@ -15,12 +15,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-  
-
-<h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="100px"> </h2>
-<a href = 'pythonomicon.com'> <img width = '32px' align= 'center' src="https://pythonomicon.com/favicon/favicon-32x32.png"/></a> 
+<h2>Connect with me</h2>
+<a href = 'https://pythonomicon.com'> <img width = '32px' align= 'center' src="https://pythonomicon.com/favicon/favicon-32x32.png"/></a> 
 <a href = 'https://www.github.com/cjrh'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> 
 <a href = 'https://www.linkedin.com/in/cjrh'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> 
+
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=aiorun&theme=gruvbox)](https://github.com/cjrh/aiorun)
+
 
 <h2>My GitHub Stats</h2>
 
