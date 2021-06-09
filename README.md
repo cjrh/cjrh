@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 <h2>Featured repositories</h2>
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=aiorun&theme=dark&bg_color=00000000)](https://github.com/cjrh/aiorun)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=aiorun&theme=dark&bg_color=00000000&title_color=539af2)](https://github.com/cjrh/aiorun)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=excitertools&theme=dark)](https://github.com/cjrh/excitertools)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=autoslot&theme=dark)](https://github.com/cjrh/autoslot)
