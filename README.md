@@ -22,11 +22,11 @@ Here are some ideas to get you started:
 <a href = 'https://www.github.com/cjrh'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> 
 <a href = 'https://www.linkedin.com/in/cjrh'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> 
 
-<h2> My GitHub Stats <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='32px'> </h2>
+<h2>My GitHub Stats</h2>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=cjrh&count_private=true&show_icons=true&theme=default" />
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=cjrh&count_private=true&show_icons=true&include_all_commits=true&theme=gruvbox" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cjrh&theme=default" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cjrh&theme=gruvbox&hide=jupyter%20notebook,html,css" />
 </a>
