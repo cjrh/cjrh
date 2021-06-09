@@ -28,5 +28,5 @@ Here are some ideas to get you started:
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=cjrh&count_private=true&show_icons=true&include_all_commits=true&theme=gruvbox" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cjrh&theme=gruvbox&hide=jupyter%20notebook,html,css" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cjrh&theme=gruvbox&hide=jupyter%20notebook,html,css,scss,javascript" />
 </a>
