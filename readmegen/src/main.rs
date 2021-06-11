@@ -14,6 +14,7 @@ struct Context {
     bg_color: String,
     text_color: String,
     title_color: String,
+    icon_color: String,
     params: String,
 }
 
@@ -118,10 +119,11 @@ fn process_repo(tt: &TinyTemplate, repo: &str) -> Result<String> {
     let mut context = Context {
         user : "cjrh".to_string(),
         repo : repo.to_string(),
-        border_color : "aaaaaa".to_string(),
+        border_color : "888888".to_string(),
         bg_color : "00000000".to_string(),
         title_color : "539af2".to_string(),
-        text_color: "aaaaaa".to_string(),
+        icon_color : "539af2".to_string(),
+        text_color: "888888".to_string(),
         params: "".to_string(),
     };
     let params = tt.render("params", &context)?;
