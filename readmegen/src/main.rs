@@ -3,7 +3,7 @@ use anyhow::Result;
 use tinytemplate::TinyTemplate;
 
 // See: https://github.com/anuraghazra/github-readme-stats#customization
-static PARAMS: &str = "username={user}&repo={repo}&theme=default&border_color={border_color}&bg_color={bg_color}&title_color={title_color}&text_color={text_color}";
+static PARAMS: &str = "username={user}&repo={repo}&theme=default&border_color={border_color}&bg_color={bg_color}&title_color={title_color}&text_color={text_color}&icon_color={icon_color}";
 static README_CARD: &str = "[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?{params})](https://github.com/cjrh/{repo})";
 
 #[derive(Serialize)]
@@ -122,7 +122,7 @@ fn process_repo(tt: &TinyTemplate, repo: &str) -> Result<String> {
         border_color : "888888".to_string(),
         bg_color : "00000000".to_string(),
         title_color : "539af2".to_string(),
-        icon_color : "539af2".to_string(),
+        icon_color : "888888".to_string(),
         text_color: "888888".to_string(),
         params: "".to_string(),
     };
