@@ -63,6 +63,14 @@ static REPOS_LOGGING: &[&str] = &[
     "sqllogformatter",
 ];
 
+#[derive(Serialize)]
+struct MainContext {
+    REPOS: String,
+    REPOS_LANGTOOLS: String,
+    REPOS_SMALLER: String,
+    REPOS_LOGGING: String,
+}
+
 fn main() -> Result<()> {
     let mut tt = tinytemplate::TinyTemplate::new();
     tt.set_default_formatter(&tinytemplate::format_unescaped);
@@ -86,6 +94,15 @@ fn main() -> Result<()> {
     let r4 = make_sec(&tt, REPOS_LOGGING)?;
     println!("{}", &r4);
     println!("\n\n");
+
+    let ctx = MainContext {
+        REPOS: r1,
+        REPOS_LANGTOOLS: r2,
+        REPOS_SMALLER: r3,
+        REPOS_LOGGING: r4,
+    };
+    let output = tt.render("readme", &ctx)?;
+    std::fs::write("README.md", output)?;
 
     Ok(())
 }

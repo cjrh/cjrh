@@ -20,7 +20,7 @@ a little easier to produce and work with.
 
 {REPOS_LOGGING}
 
-<h2>Connect with me</h2>
+<h2>Links</h2>
 <a href = 'https://pythonomicon.com'> <img width = '32px' align= 'center' src="https://pythonomicon.com/favicon/favicon-32x32.png"/></a> 
 <a href = 'https://www.github.com/cjrh'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> 
 <a href = 'https://www.linkedin.com/in/cjrh'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> 
@@ -28,8 +28,8 @@ a little easier to produce and work with.
 <h2>My GitHub Stats</h2>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=cjrh&count_private=true&show_icons=true&include_all_commits=true&theme=dark" />
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=cjrh&count_private=true&show_icons=true&include_all_commits=true&theme=default" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cjrh&theme=dark&hide=jupyter%20notebook,html,css,scss,javascript" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cjrh&theme=default&hide=jupyter%20notebook,html,css,scss,javascript" />
 </a>
