@@ -29,6 +29,7 @@ static REPOS: &[&str] = &[
     "excitertools",
     "autoslot",
     "biodome",
+    "biodome-rs",
     "coroexecutor",
     "aiomsg",
     "lifter",

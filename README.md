@@ -1,4 +1,6 @@
-### Hi there 👋
+<div style="height: 100px" />
+<h3 align="center">☮️💖️😊</h3>
+<div style="height: 100px" />
 
 <h2>Featured repositories</h2>
 
@@ -6,6 +8,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=excitertools&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/excitertools)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=autoslot&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/autoslot)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=biodome&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/biodome)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=biodome-rs&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/biodome-rs)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=coroexecutor&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/coroexecutor)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=aiomsg&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/aiomsg)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=lifter&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/lifter)
