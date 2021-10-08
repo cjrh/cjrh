@@ -1,5 +1,5 @@
 <div style="height: 100px" />
-<h3 align="center">☮️💖️😊</h3>
+<h3 align="center">Welcome!</h3>
 <div style="height: 100px" />
 
 <h2>Featured repositories</h2>
