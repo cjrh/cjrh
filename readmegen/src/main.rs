@@ -39,6 +39,10 @@ static REPOS: &[&str] = &[
     "itertree-rs",
 ];
 
+static REPOS_ML: &[&str] = &[
+    "empatico",
+];
+
 static REPOS_LANGTOOLS: &[&str] = &[
     "dictomatic",
     "thesauromatic",
@@ -54,6 +58,8 @@ static REPOS_SMALLER: &[&str] = &[
     "templitz",
     "cjrh_template",
     "google-images-downloader",
+    "covcompare",
+    "aiodec",
 ];
 
 static REPOS_LOGGING: &[&str] = &[
@@ -69,6 +75,7 @@ static REPOS_LOGGING: &[&str] = &[
 #[derive(Serialize)]
 struct MainContext {
     REPOS: String,
+    REPOS_ML: String,
     REPOS_LANGTOOLS: String,
     REPOS_SMALLER: String,
     REPOS_LOGGING: String,
@@ -98,8 +105,13 @@ fn main() -> Result<()> {
     println!("{}", &r4);
     println!("\n\n");
 
+    let r5 = make_sec(&tt, REPOS_ML)?;
+    println!("{}", &r5);
+    println!("\n\n");
+
     let ctx = MainContext {
         REPOS: r1,
+        REPOS_ML: r5,
         REPOS_LANGTOOLS: r2,
         REPOS_SMALLER: r3,
         REPOS_LOGGING: r4,

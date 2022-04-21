@@ -17,6 +17,10 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=mucro&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/mucro)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=itertree-rs&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/itertree-rs)
 
+<h3>Machine Learning</h3>
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=empatico&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/empatico)
+
 <h3>English language tools</h3>
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=dictomatic&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/dictomatic)
@@ -33,6 +37,8 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=templitz&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/templitz)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=cjrh_template&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/cjrh_template)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=google-images-downloader&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/google-images-downloader)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=covcompare&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/covcompare)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=aiodec&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/aiodec)
 
 <h3>Logging tools</h3>
 
