@@ -30,6 +30,7 @@ static REPOS: &[&str] = &[
     "autoslot",
     "biodome",
     "biodome-rs",
+    "deadpool",
     "coroexecutor",
     "aiomsg",
     "lifter",
@@ -60,6 +61,7 @@ static REPOS_SMALLER: &[&str] = &[
     "google-images-downloader",
     "covcompare",
     "aiodec",
+    "cancelkulture",
 ];
 
 static REPOS_LOGGING: &[&str] = &[
