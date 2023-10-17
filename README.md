@@ -1,5 +1,6 @@
 <div style="height: 100px" />
 <h3 align="center">Welcome!</h3>
+
 <div style="height: 100px" />
 
 <h2>Featured repositories</h2>
@@ -57,6 +58,7 @@ a little easier to produce and work with.
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cjrh&repo=sqllogformatter&theme=default&border_color=888888&bg_color=00000000&title_color=539af2&text_color=888888&icon_color=888888)](https://github.com/cjrh/sqllogformatter)
 
 <h2>Links</h2>
+<a rel="me" href="https://hachyderm.io/@caleb">Mastodon</a>
 <a href = 'https://tekmoji.com'> <img width = '32px' align= 'center' src="https://pythonomicon.com/favicon/favicon-32x32.png"/></a>
 <a href = 'https://www.github.com/cjrh'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 <a href = 'https://www.linkedin.com/in/cjrh'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>
