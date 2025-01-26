@@ -1,4 +1,6 @@
 
+# Hello, and Welcome to My GitHub Profile
+
 I spend quite a lot of time on GitHub or on projects hosted on GitHub. These are my hobby projects,
 although I use several of them also for work. There is no theme. From time to time an idea comes to
 me and then I just "see what happens". I have a lot of fun with it. Some projects are more successful than others,
