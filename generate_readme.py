@@ -44,25 +44,83 @@ class Repo:
         return f"{years} years and {months} months"
 
 README_TEMPLATE = Template("""
-# Welcome
+I spend quite a lot of time on GitHub or on projects hosted on GitHub. These are my hobby projects,
+although I use several of them also for work. There is no theme. From time to time an idea comes to
+me and then I just "see what happens". I have a lot of fun with it. Some projects are more successful than others,
+and some are much more fully developed than others; surprisingly, success and completeness are not
+correlated.
 
-## Links
+I have many hobby projects. Over the years I have developed some habits that
+reduce the time I need to spend on them. Time spent on project maintenance is time
+not spent on playing with exciting new ideas and you can surely guess which
+is my preference.
 
-- [GitHub](https://github.com/cjrh)
+The most important habit is that I don't advertise these projects.
+The projects are for me first and foremost. I am happy when
+someone else finds them useful, but that's not the primary goal. Generally speaking,
+once a project can do the thing I set out to achieve, I tend to avoid adding new
+features. I do however try to fix bugs and keep the project up to date with
+changes in the ecosystem.
+
+Secondly, I try to keep dependencies to a minimum. My favorite hobby projects are
+ones that depend only on the standard library; easier with Python than Rust but my orientation
+is towards fewer when possible. I am
+confident that these will work for a long time and with minimal input from me.
+To be clear, I am not against
+dependencies! I use many at work and I even wrote a book called "20 Python Libraries
+You Aren't Using But Should". But for hobby projects, I want to keep the maintenance
+burden as low as possible.
+
+It isn't only code dependencies you
+have to worry about: packaging in Python has been constantly shifting sand for many years,
+release practices keep changing, and even CI also keeps changing every five years or so.
+Before github actions I used AppVeyor and before that, travis-ci.
+Once you have a few tens of projects, any small changes you have to do to all of them
+starts to add up.
+Over longer timeframes, all external dependencies change so the fewer the better.
+
+Finally, I try to keep the project small in scope, and the code quality high.
+Quality varies a lot on how long
+I spend on the idea. I don't always succeed but I try. I
+write tests, as much as I can, I track coverage, and I try to write detailed
+documentation. The documentation is especially important because I even need it
+myself to help remember why I did things a certain way several years ago.
+Regression tests are very important if you're aiming for long-term reliability.
+
+# Links About Me
+
 - [Mastodon](https://hachyderm.io/@caleb)
-- ![Mastodon Follow](https://img.shields.io/mastodon/follow/108815314118110759?domain=hachyderm.io&style=flat)
 - [Blog](https://tekmoji.com)
 - [LinkedIn](https://www.linkedin.com/in/cjrh/)
 - ![GitHub Sponsors](https://img.shields.io/github/sponsors/cjrh)
 - ![GitHub followers](https://img.shields.io/github/followers/cjrh?style=flat)
 - ![GitHub User's stars](https://img.shields.io/github/stars/cjrh?style=flat)
 
-## Projects
+# Projects
+
+The list of projects below excludes forks, archived repos, and toy experiments.
+They are sorted in the following way:
+
+- All projects with more than 10 stars are at the top.
+- Projects less than 6 months old are the next group. (You probably don't want to
+  use my older stuff)
+- The rest appear below.
+
+Each group is sorted by the number of stars. I don't especially care about
+stars but they're useful as a proxy for "someone else finds this useful".
+
+This way newer projects can be highlighted above very old projects that
+might have a couple more stars.
 
 $repos
 
 """)
 # - ![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/caleb?style=flat)
+
+# TODO: Let's add some SVG animation:
+#  https://pragmaticpineapple.com/adding-custom-html-and-css-to-github-readme/
+
+# TODO: Add a table of contents
 
 # We're going to write special HTML for each project
 # for a little more control over the style. We want them
@@ -70,10 +128,10 @@ $repos
 # GitHub markdown renderer, though, and must follow Github
 # rules.
 PROJECT_MARKDOWN_README = Template("""
-<h1><a href="https://github.com/$user/$name">$name</a> $lang_image</h1>
+<h2><a href="https://github.com/$user/$name">$name</a> $lang_image</h2>
 
 $shields_text
-        
+
 $description
 
 This project is written in <strong>$language</strong>. It is $age years 
