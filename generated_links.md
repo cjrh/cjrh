@@ -1,0 +1,78 @@
+- [deadpool](https://github.com/cjrh/deadpool): A Python Process Pool Executor implementation that is harder to break
+- [appimage-auto](https://github.com/cjrh/appimage-auto): No-frills appimage manager
+- [lifter](https://github.com/cjrh/lifter): Download and sync new releases of single-file binaries from Github Releases and other sites
+- [snaxum](https://github.com/cjrh/snaxum): 
+- [paradeinjest](https://github.com/cjrh/paradeinjest): 
+- [smt-toggle](https://github.com/cjrh/smt-toggle): 
+- [rust-electron-sycamore-template](https://github.com/cjrh/rust-electron-sycamore-template): App template for Rust+Electron+Sycamore+Neon for cargo-generate
+- [debussy](https://github.com/cjrh/debussy): CLI emitting json when song changes on Linux. Uses MPRIS and dbus to receive events
+- [autoslot](https://github.com/cjrh/autoslot): Automatic __slots__ for your Python classes
+- [playpen](https://github.com/cjrh/playpen): Program launcher with memory, cpu, and path limits
+- [cjrh.github.io](https://github.com/cjrh/cjrh.github.io): My blog 🤷
+- [sembra](https://github.com/cjrh/sembra): Seam carving image resizing
+- [cjrh](https://github.com/cjrh/cjrh): This generates the README.md for my github profile, which is likely what you're currently reading.
+- [clonymccloneface](https://github.com/cjrh/clonymccloneface): Clone all your github repos AND set upstream for your forks
+- [aiorun](https://github.com/cjrh/aiorun): A "run" function for asyncio-based apps that does all the boilerplate.
+- [excitertools](https://github.com/cjrh/excitertools): itertools (and more-itertools) in the form of function call chaining (fluent interface)
+- [commas](https://github.com/cjrh/commas): CLI tool to reformat text replacing whitespace with commas, or field template substitution
+- [plenty](https://github.com/cjrh/plenty): Programming language
+- [dockerctx](https://github.com/cjrh/dockerctx): Context manager for managing the lifetime of a docker container
+- [aiomsg](https://github.com/cjrh/aiomsg): Smart sockets and scalability protocols for messaging network applications
+- [empatico](https://github.com/cjrh/empatico): Emotion detection microservice based on natural language inference
+- [cargo-generate-template-nostd-heapless](https://github.com/cjrh/cargo-generate-template-nostd-heapless): A cargo-generate template repo to start a no_std binary project using data structures from the heapless crate
+- [frisbee](https://github.com/cjrh/frisbee): Firefox automation
+- [acts](https://github.com/cjrh/acts): Small terminal menu to run preconfigured commands
+- [terminal-menu-rs](https://github.com/cjrh/terminal-menu-rs): THIS IS NOT UPSTREAM! Forked from gitlab: https://gitlab.com/xamn/terminal-menu-rs
+- [yet-another-python-indent](https://github.com/cjrh/yet-another-python-indent): Back to basics indentexpr for Python
+- [linedance](https://github.com/cjrh/linedance): Read lines from either stdin or filenames provided on the CLI.
+- [hashdict](https://github.com/cjrh/hashdict): Dict that only stores hashes of the keys, and not the key value. Good for large keys.
+- [scalable-cuckoo-filter-py](https://github.com/cjrh/scalable-cuckoo-filter-py): Python wrapper for sile/scalable_cuckoo_filter
+- [nnsplit-unblocked](https://github.com/cjrh/nnsplit-unblocked): A python wrapper for nnsplit 0.5.9 that runs in newer python versions
+- [linux-toolbox-gui](https://github.com/cjrh/linux-toolbox-gui): GUI App for common tasks
+- [biodome-rs](https://github.com/cjrh/biodome-rs): Neater management of environment variables (intended for microservices)
+- [misu](https://github.com/cjrh/misu): High-speed physical quantities and dimensions in Python
+- [actix-sse-demo](https://github.com/cjrh/actix-sse-demo): 
+- [dining-philosophers](https://github.com/cjrh/dining-philosophers): The "Dining Philosophers" problem
+- [pyconau2018-arcade2Dmultiplayer](https://github.com/cjrh/pyconau2018-arcade2Dmultiplayer): Working files for my talk at PyCon AU 2018
+- [vim-conda](https://github.com/cjrh/vim-conda): Change conda environments in the Vim editor (with Jedi-vim support)
+- [biodome](https://github.com/cjrh/biodome): Better environment variables for Python
+- [coroexecutor](https://github.com/cjrh/coroexecutor): A CoroutineExecutor for asyncio, similar to nurseries and task groups
+- [pwrgen](https://github.com/cjrh/pwrgen): Password and passphrase generator in rust
+- [aggonydb](https://github.com/cjrh/aggonydb): Aggony DB is a one-trick-pony database that can perform rapid aggregation of many-fields low-cardinality big data
+- [dialetto](https://github.com/cjrh/dialetto): Language detection. Finally one that works with short text.
+- [thesauromatic](https://github.com/cjrh/thesauromatic): Static, offline, command-line CLI thesaurus
+- [adventofcode2021](https://github.com/cjrh/adventofcode2021): 
+- [covcompare](https://github.com/cjrh/covcompare): Compare two xml coverage files, report on branch and line coverage
+- [thesauromatic-py](https://github.com/cjrh/thesauromatic-py): Python wrapper for my "thesauromatic" library.
+- [easycython](https://github.com/cjrh/easycython): An easy way to convert a .pyx file into a .pyd file and avoid having to write a setup.py
+- [rhymomatic](https://github.com/cjrh/rhymomatic): Static, offline, command-line rhyming dictionary
+- [itertree-rs](https://github.com/cjrh/itertree-rs): Hobby project exploring tree traversal in Rust using iterators
+- [bumpymcbumpface](https://github.com/cjrh/bumpymcbumpface): Version bump, tag and deploy your python packages
+- [dictomatic](https://github.com/cjrh/dictomatic): Static, offline, command-line CLI dictionary (including word definitions)
+- [enumerate_reversible](https://github.com/cjrh/enumerate_reversible): A replacement enumerate function that allows reverse order
+- [cgroup_executor](https://github.com/cjrh/cgroup_executor): Python ProcessPoolExecutor with support for resource constraints via cgroups
+- [postgres_crud_generator](https://github.com/cjrh/postgres_crud_generator): Code generator to make CRUD classes for working with PostgreSQL via asyncpg
+- [logjson](https://github.com/cjrh/logjson): A Python logging Handler for JSON logs (with LogStash support)
+- [loghandlerzmq](https://github.com/cjrh/loghandlerzmq): Python logging handler for ZMQ transmission
+- [logbind](https://github.com/cjrh/logbind): Easily bind new LogRecord fields into your logger instances.
+- [lizard](https://github.com/cjrh/lizard): computer system monitor, like free disk space, system load, free memory.
+- [termtheme](https://github.com/cjrh/termtheme): 
+- [ps1go](https://github.com/cjrh/ps1go): PS1 prompt generator
+- [aiologfields](https://github.com/cjrh/aiologfields): Automatically inject Task-context-aware fields into loggers
+- [arglog](https://github.com/cjrh/arglog): Add root logger config to argparse automatically
+- [perflog](https://github.com/cjrh/perflog): Structured logging support for application performance and monitoring data
+- [mucro](https://github.com/cjrh/mucro): Easy executable symlinks to your virtualenv Python scripts
+- [aiohealthcheck](https://github.com/cjrh/aiohealthcheck): Very simple TCP-based health check service. 
+- [templitz](https://github.com/cjrh/templitz): File templates for faster project bootstrap
+- [aiodec](https://github.com/cjrh/aiodec): Decorators for coroutines
+- [chained-iterable](https://github.com/cjrh/chained-iterable): [FORK - ORIGINAL IS MISSING] Python iterables in a functional-programming style
+- [brispy-cython-workshop](https://github.com/cjrh/brispy-cython-workshop): Notebook files from the workshop
+- [sqlite-server](https://github.com/cjrh/sqlite-server): A network server for sqlite databases
+- [cjrh_template](https://github.com/cjrh/cjrh_template): A very thin string.Template subclass with extra features.
+- [chat](https://github.com/cjrh/chat): 
+- [cjrh_math](https://github.com/cjrh/cjrh_math): Handy math routines
+- [google-images-downloader](https://github.com/cjrh/google-images-downloader): An experiment in browser automation
+- [sqllogformatter](https://github.com/cjrh/sqllogformatter): A Python logging Formatter subclass for messages with SQL queries
+- [copydir](https://github.com/cjrh/copydir): Recursively copy a directory tree, with filters.
+- [osx-finder-toolbar-apps](https://github.com/cjrh/osx-finder-toolbar-apps): Tools to be added to the OSX Finder toolbar
+- [pathprinter](https://github.com/cjrh/pathprinter): Prints out the windows %PATH% variable as a list
