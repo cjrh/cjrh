@@ -1,16 +1,16 @@
+- [debussy](https://github.com/cjrh/debussy): CLI emitting json when song changes on Linux. Uses MPRIS and dbus to receive events
+- [cjrh](https://github.com/cjrh/cjrh): This generates the README.md for my github profile, which is likely what you're currently reading.
 - [deadpool](https://github.com/cjrh/deadpool): A Python Process Pool Executor implementation that is harder to break
 - [appimage-auto](https://github.com/cjrh/appimage-auto): No-frills appimage manager
 - [lifter](https://github.com/cjrh/lifter): Download and sync new releases of single-file binaries from Github Releases and other sites
-- [snaxum](https://github.com/cjrh/snaxum): 
+- [snaxum](https://github.com/cjrh/snaxum): Experimental Axum extension that allows python request handlers
 - [paradeinjest](https://github.com/cjrh/paradeinjest): 
-- [smt-toggle](https://github.com/cjrh/smt-toggle): 
+- [smt-toggle](https://github.com/cjrh/smt-toggle): System tray application toggle SMT hyperthreading on/off
 - [rust-electron-sycamore-template](https://github.com/cjrh/rust-electron-sycamore-template): App template for Rust+Electron+Sycamore+Neon for cargo-generate
-- [debussy](https://github.com/cjrh/debussy): CLI emitting json when song changes on Linux. Uses MPRIS and dbus to receive events
 - [autoslot](https://github.com/cjrh/autoslot): Automatic __slots__ for your Python classes
 - [playpen](https://github.com/cjrh/playpen): Program launcher with memory, cpu, and path limits
 - [cjrh.github.io](https://github.com/cjrh/cjrh.github.io): My blog 🤷
 - [sembra](https://github.com/cjrh/sembra): Seam carving image resizing
-- [cjrh](https://github.com/cjrh/cjrh): This generates the README.md for my github profile, which is likely what you're currently reading.
 - [clonymccloneface](https://github.com/cjrh/clonymccloneface): Clone all your github repos AND set upstream for your forks
 - [aiorun](https://github.com/cjrh/aiorun): A "run" function for asyncio-based apps that does all the boilerplate.
 - [excitertools](https://github.com/cjrh/excitertools): itertools (and more-itertools) in the form of function call chaining (fluent interface)

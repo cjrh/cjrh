@@ -1,3 +1,4 @@
+
 # Projects
 
 - [acts](https://github.com/cjrh/acts): Small terminal menu to run preconfigured commands
@@ -57,8 +58,8 @@
 - [rust-electron-sycamore-template](https://github.com/cjrh/rust-electron-sycamore-template): App template for Rust+Electron+Sycamore+Neon for cargo-generate
 - [scalable-cuckoo-filter-py](https://github.com/cjrh/scalable-cuckoo-filter-py): Python wrapper for sile/scalable_cuckoo_filter
 - [sembra](https://github.com/cjrh/sembra): Seam carving image resizing
-- [smt-toggle](https://github.com/cjrh/smt-toggle): 
-- [snaxum](https://github.com/cjrh/snaxum): 
+- [smt-toggle](https://github.com/cjrh/smt-toggle): System tray application toggle SMT hyperthreading on/off
+- [snaxum](https://github.com/cjrh/snaxum): Experimental Axum extension that allows python request handlers
 - [sqllogformatter](https://github.com/cjrh/sqllogformatter): A Python logging Formatter subclass for messages with SQL queries
 - [templitz](https://github.com/cjrh/templitz): File templates for faster project bootstrap
 - [terminal-menu-rs](https://github.com/cjrh/terminal-menu-rs): THIS IS NOT UPSTREAM! Forked from gitlab: https://gitlab.com/xamn/terminal-menu-rs
