@@ -26,7 +26,6 @@
 - [covcompare](https://github.com/cjrh/covcompare): Compare two xml coverage files, report on branch and line coverage
 - [deadpool](https://github.com/cjrh/deadpool): A Python Process Pool Executor implementation that is harder to break
 - [debussy](https://github.com/cjrh/debussy): CLI emitting json when song changes on Linux. Uses MPRIS and dbus to receive events
-- [dialetto](https://github.com/cjrh/dialetto): Language detection. Finally one that works with short text.
 - [dictomatic](https://github.com/cjrh/dictomatic): Static, offline, command-line CLI dictionary (including word definitions)
 - [dining-philosophers](https://github.com/cjrh/dining-philosophers): The "Dining Philosophers" problem
 - [dockerctx](https://github.com/cjrh/dockerctx): Context manager for managing the lifetime of a docker container
@@ -65,7 +64,6 @@
 - [terminal-menu-rs](https://github.com/cjrh/terminal-menu-rs): THIS IS NOT UPSTREAM! Forked from gitlab: https://gitlab.com/xamn/terminal-menu-rs
 - [thesauromatic-py](https://github.com/cjrh/thesauromatic-py): Python wrapper for my "thesauromatic" library.
 - [thesauromatic](https://github.com/cjrh/thesauromatic): Static, offline, command-line CLI thesaurus
-- [vim-conda](https://github.com/cjrh/vim-conda): Change conda environments in the Vim editor (with Jedi-vim support)
 - [yet-another-python-indent](https://github.com/cjrh/yet-another-python-indent): Back to basics indentexpr for Python
 
 

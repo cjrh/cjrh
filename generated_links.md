@@ -1,5 +1,6 @@
-- [debussy](https://github.com/cjrh/debussy): CLI emitting json when song changes on Linux. Uses MPRIS and dbus to receive events
+- [misu](https://github.com/cjrh/misu): High-speed physical quantities and dimensions in Python
 - [cjrh](https://github.com/cjrh/cjrh): This generates the README.md for my github profile, which is likely what you're currently reading.
+- [debussy](https://github.com/cjrh/debussy): CLI emitting json when song changes on Linux. Uses MPRIS and dbus to receive events
 - [deadpool](https://github.com/cjrh/deadpool): A Python Process Pool Executor implementation that is harder to break
 - [appimage-auto](https://github.com/cjrh/appimage-auto): No-frills appimage manager
 - [lifter](https://github.com/cjrh/lifter): Download and sync new releases of single-file binaries from Github Releases and other sites
@@ -30,16 +31,13 @@
 - [nnsplit-unblocked](https://github.com/cjrh/nnsplit-unblocked): A python wrapper for nnsplit 0.5.9 that runs in newer python versions
 - [linux-toolbox-gui](https://github.com/cjrh/linux-toolbox-gui): GUI App for common tasks
 - [biodome-rs](https://github.com/cjrh/biodome-rs): Neater management of environment variables (intended for microservices)
-- [misu](https://github.com/cjrh/misu): High-speed physical quantities and dimensions in Python
 - [actix-sse-demo](https://github.com/cjrh/actix-sse-demo): 
 - [dining-philosophers](https://github.com/cjrh/dining-philosophers): The "Dining Philosophers" problem
 - [pyconau2018-arcade2Dmultiplayer](https://github.com/cjrh/pyconau2018-arcade2Dmultiplayer): Working files for my talk at PyCon AU 2018
-- [vim-conda](https://github.com/cjrh/vim-conda): Change conda environments in the Vim editor (with Jedi-vim support)
 - [biodome](https://github.com/cjrh/biodome): Better environment variables for Python
 - [coroexecutor](https://github.com/cjrh/coroexecutor): A CoroutineExecutor for asyncio, similar to nurseries and task groups
 - [pwrgen](https://github.com/cjrh/pwrgen): Password and passphrase generator in rust
 - [aggonydb](https://github.com/cjrh/aggonydb): Aggony DB is a one-trick-pony database that can perform rapid aggregation of many-fields low-cardinality big data
-- [dialetto](https://github.com/cjrh/dialetto): Language detection. Finally one that works with short text.
 - [thesauromatic](https://github.com/cjrh/thesauromatic): Static, offline, command-line CLI thesaurus
 - [adventofcode2021](https://github.com/cjrh/adventofcode2021): 
 - [covcompare](https://github.com/cjrh/covcompare): Compare two xml coverage files, report on branch and line coverage
