@@ -35,8 +35,8 @@
     .subtitle { fill: var(--muted); font-size: 22px; }
     .section { fill: var(--ink); font-size: 27px; font-weight: 780; letter-spacing: -0.25px; }
     .section-note { fill: var(--muted); font-size: 17px; }
-    .card rect, .group rect, .callout rect { fill: var(--panel); stroke: var(--hairline); stroke-width: 1.2; filter: drop-shadow(0 6px 13px var(--shadow)); }
-    .card.feature rect { fill: var(--panel-2); }
+    .card > rect, .group > rect, .callout > rect { fill: var(--panel); stroke: var(--hairline); stroke-width: 1.2; filter: drop-shadow(0 6px 13px var(--shadow)); }
+    .card.feature > rect { fill: var(--panel-2); }
     .repo { fill: var(--ink); font-size: 26px; font-weight: 760; letter-spacing: -0.25px; }
     .bullet { fill: var(--muted); font-size: 17px; }
     .copy { fill: var(--muted); font-size: 17px; }
