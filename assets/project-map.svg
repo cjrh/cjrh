@@ -62,7 +62,7 @@
   <rect class="bg" width="1200" height="1650" rx="28" />
   <rect width="1200" height="1650" fill="url(#dot-grid)" opacity="0.42" rx="28" />
 
-  <text class="title" x="60" y="82">Small, orthogonal tools</text>
+  <text class="title" x="60" y="82">Small orthogonal tools</text>
   <text class="subtitle" x="62" y="122">Curated public work: narrow interfaces, sharp edges, and room to compose.</text>
 
   <g class="pill" transform="translate(930 58)">
@@ -98,7 +98,7 @@
       <g class="pill" transform="translate(28 28)"><rect width="156" height="24" rx="12" class="maint"/><text x="78" y="16" text-anchor="middle">CORE MAINTAINER</text></g>
       <text class="repo" x="28" y="80">quickwit-oss/tantivy-py</text>
       <text class="metric" x="276" y="80">★ 419</text>
-      <text class="copy" x="28" y="105">Python bindings for Tantivy — search infrastructure work maintained upstream rather than under the cjrh namespace.</text>
+      <text class="copy" x="28" y="105">Python bindings for Tantivy: search infrastructure work maintained upstream rather than under the cjrh namespace.</text>
       <g class="pill" transform="translate(970 53)"><rect width="58" height="20" rx="10" class="rust"/><text x="29" y="14" text-anchor="middle">RUST</text></g>
     </g>
   </a>
@@ -108,45 +108,45 @@
     <rect width="520" height="190" rx="20" />
     <text class="section" x="28" y="42">Async &amp; reliability</text>
     <text class="section-note" x="28" y="72">Making service lifecycles explicit.</text>
-    <text class="bullet" x="28" y="112">• aiorun — startup, shutdown, signals</text>
-    <text class="bullet" x="28" y="140">• deadpool — resilient process pools</text>
-    <text class="bullet" x="28" y="168">• coroexecutor — nursery-like execution</text>
+    <text class="bullet" x="28" y="112">• aiorun: startup, shutdown, signals</text>
+    <text class="bullet" x="28" y="140">• deadpool: resilient process pools</text>
+    <text class="bullet" x="28" y="168">• coroexecutor: nursery-like execution</text>
   </g>
 
   <g class="group" transform="translate(620 930)">
     <rect width="520" height="190" rx="20" />
     <text class="section" x="28" y="42">Developer workflows</text>
     <text class="section-note" x="28" y="72">Tools that remove one annoying step.</text>
-    <text class="bullet" x="28" y="112">• lifter — sync release binaries</text>
-    <text class="bullet" x="28" y="140">• stackymcstackface — stacked PRs</text>
-    <text class="bullet" x="28" y="168">• clonymccloneface — clone with upstreams</text>
+    <text class="bullet" x="28" y="112">• lifter: sync release binaries</text>
+    <text class="bullet" x="28" y="140">• stackymcstackface: stacked PRs</text>
+    <text class="bullet" x="28" y="168">• clonymccloneface: clone with upstreams</text>
   </g>
 
   <g class="group" transform="translate(60 1160)">
     <rect width="520" height="190" rx="20" />
     <text class="section" x="28" y="42">Language, data &amp; search</text>
     <text class="section-note" x="28" y="72">Offline words, indexing, compact ideas.</text>
-    <text class="bullet" x="28" y="112">• tantivy-py — Python search bindings</text>
-    <text class="bullet" x="28" y="140">• thesauromatic — offline thesaurus</text>
-    <text class="bullet" x="28" y="168">• dictomatic / rhymomatic — word tools</text>
+    <text class="bullet" x="28" y="112">• tantivy-py: Python search bindings</text>
+    <text class="bullet" x="28" y="140">• thesauromatic: offline thesaurus</text>
+    <text class="bullet" x="28" y="168">• dictomatic / rhymomatic: word tools</text>
   </g>
 
   <g class="group" transform="translate(620 1160)">
     <rect width="520" height="190" rx="20" />
     <text class="section" x="28" y="42">Python ergonomics</text>
     <text class="section-note" x="28" y="72">Small APIs that hide machinery.</text>
-    <text class="bullet" x="28" y="112">• autoslot — leaner object models</text>
-    <text class="bullet" x="28" y="140">• excitertools — composable iteration</text>
-    <text class="bullet" x="28" y="168">• easycython / misu — speed without fuss</text>
+    <text class="bullet" x="28" y="112">• autoslot: leaner object models</text>
+    <text class="bullet" x="28" y="140">• excitertools: composable iteration</text>
+    <text class="bullet" x="28" y="168">• easycython / misu: speed without fuss</text>
   </g>
 
   <g class="group" transform="translate(60 1390)">
     <rect width="520" height="190" rx="20" />
     <text class="section" x="28" y="42">Runtime boundaries</text>
     <text class="section-note" x="28" y="72">Where processes, containers, env meet.</text>
-    <text class="bullet" x="28" y="112">• dockerctx — scoped containers</text>
-    <text class="bullet" x="28" y="140">• biodome — environment configuration</text>
-    <text class="bullet" x="28" y="168">• playpen / chimera — process edges</text>
+    <text class="bullet" x="28" y="112">• dockerctx: scoped containers</text>
+    <text class="bullet" x="28" y="140">• biodome: environment configuration</text>
+    <text class="bullet" x="28" y="168">• playpen / chimera: process edges</text>
   </g>
 
   <g class="group" transform="translate(620 1390)">
@@ -154,8 +154,8 @@
     <text class="section" x="28" y="42">Rust experiments</text>
     <text class="section-note" x="28" y="72">Database bindings, UI, systems glue.</text>
     <text class="bullet" x="28" y="112">• diesel-clickhouse / diesel-paradedb</text>
-    <text class="bullet" x="28" y="140">• iced-themer — declarative themes</text>
-    <text class="bullet" x="28" y="168">• debussy / aiomsg — desktop + network</text>
+    <text class="bullet" x="28" y="140">• iced-themer: declarative themes</text>
+    <text class="bullet" x="28" y="168">• debussy / aiomsg: desktop + network</text>
   </g>
 
   <text class="legend" x="60" y="1620">Hand-curated SVG: public, non-fork work only. The README repeats links for GitHub accessibility and navigation.</text>
