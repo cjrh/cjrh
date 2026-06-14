@@ -1,70 +1,59 @@
+<h1 align="center">Caleb Hattingh</h1>
 
-# Projects
+<p align="center">
+  I like small, orthogonal tools with sharp edges.
+</p>
 
-- [acts](https://github.com/cjrh/acts): Small terminal menu to run preconfigured commands
-- [aggonydb](https://github.com/cjrh/aggonydb): Aggony DB is a one-trick-pony database that can perform rapid aggregation of many-fields low-cardinality big data
-- [aiodec](https://github.com/cjrh/aiodec): Decorators for coroutines
-- [aiohealthcheck](https://github.com/cjrh/aiohealthcheck): Very simple TCP-based health check service. 
-- [aiologfields](https://github.com/cjrh/aiologfields): Automatically inject Task-context-aware fields into loggers
-- [aiomsg](https://github.com/cjrh/aiomsg): Smart sockets and scalability protocols for messaging network applications
-- [aiorun](https://github.com/cjrh/aiorun): A "run" function for asyncio-based apps that does all the boilerplate.
-- [appimage-auto](https://github.com/cjrh/appimage-auto): No-frills appimage manager
-- [arglog](https://github.com/cjrh/arglog): Add root logger config to argparse automatically
-- [autoslot](https://github.com/cjrh/autoslot): Automatic __slots__ for your Python classes
-- [biodome-rs](https://github.com/cjrh/biodome-rs): Neater management of environment variables (intended for microservices)
-- [biodome](https://github.com/cjrh/biodome): Better environment variables for Python
-- [bumpymcbumpface](https://github.com/cjrh/bumpymcbumpface): Version bump, tag and deploy your python packages
-- [cargo-generate-template-nostd-heapless](https://github.com/cjrh/cargo-generate-template-nostd-heapless): A cargo-generate template repo to start a no_std binary project using data structures from the heapless crate
-- [cjrh.github.io](https://github.com/cjrh/cjrh.github.io): My blog 🤷
-- [cjrh](https://github.com/cjrh/cjrh): This generates the README.md for my github profile, which is likely what you're currently reading.
-- [cjrh_math](https://github.com/cjrh/cjrh_math): Handy math routines
-- [cjrh_template](https://github.com/cjrh/cjrh_template): A very thin string.Template subclass with extra features.
-- [clonymccloneface](https://github.com/cjrh/clonymccloneface): Clone all your github repos AND set upstream for your forks
-- [commas](https://github.com/cjrh/commas): CLI tool to reformat text replacing whitespace with commas, or field template substitution
-- [copydir](https://github.com/cjrh/copydir): Recursively copy a directory tree, with filters.
-- [coroexecutor](https://github.com/cjrh/coroexecutor): A CoroutineExecutor for asyncio, similar to nurseries and task groups
-- [covcompare](https://github.com/cjrh/covcompare): Compare two xml coverage files, report on branch and line coverage
-- [deadpool](https://github.com/cjrh/deadpool): A Python Process Pool Executor implementation that is harder to break
-- [debussy](https://github.com/cjrh/debussy): CLI emitting json when song changes on Linux. Uses MPRIS and dbus to receive events
-- [dictomatic](https://github.com/cjrh/dictomatic): Static, offline, command-line CLI dictionary (including word definitions)
-- [dining-philosophers](https://github.com/cjrh/dining-philosophers): The "Dining Philosophers" problem
-- [dockerctx](https://github.com/cjrh/dockerctx): Context manager for managing the lifetime of a docker container
-- [easycython](https://github.com/cjrh/easycython): An easy way to convert a .pyx file into a .pyd file and avoid having to write a setup.py
-- [empatico](https://github.com/cjrh/empatico): Emotion detection microservice based on natural language inference
-- [enumerate_reversible](https://github.com/cjrh/enumerate_reversible): A replacement enumerate function that allows reverse order
-- [excitertools](https://github.com/cjrh/excitertools): itertools (and more-itertools) in the form of function call chaining (fluent interface)
-- [frisbee](https://github.com/cjrh/frisbee): Firefox automation
-- [google-images-downloader](https://github.com/cjrh/google-images-downloader): An experiment in browser automation
-- [hashdict](https://github.com/cjrh/hashdict): Dict that only stores hashes of the keys, and not the key value. Good for large keys.
-- [itertree-rs](https://github.com/cjrh/itertree-rs): Hobby project exploring tree traversal in Rust using iterators
-- [lifter](https://github.com/cjrh/lifter): Download and sync new releases of single-file binaries from Github Releases and other sites
-- [linedance](https://github.com/cjrh/linedance): Read lines from either stdin or filenames provided on the CLI.
-- [logbind](https://github.com/cjrh/logbind): Easily bind new LogRecord fields into your logger instances.
-- [loghandlerzmq](https://github.com/cjrh/loghandlerzmq): Python logging handler for ZMQ transmission
-- [logjson](https://github.com/cjrh/logjson): A Python logging Handler for JSON logs (with LogStash support)
-- [misu](https://github.com/cjrh/misu): High-speed physical quantities and dimensions in Python
-- [mucro](https://github.com/cjrh/mucro): Easy executable symlinks to your virtualenv Python scripts
-- [nnsplit-unblocked](https://github.com/cjrh/nnsplit-unblocked): A python wrapper for nnsplit 0.5.9 that runs in newer python versions
-- [paradeinjest](https://github.com/cjrh/paradeinjest): 
-- [pathprinter](https://github.com/cjrh/pathprinter): Prints out the windows %PATH% variable as a list
-- [perflog](https://github.com/cjrh/perflog): Structured logging support for application performance and monitoring data
-- [playpen](https://github.com/cjrh/playpen): Program launcher with memory, cpu, and path limits
-- [plenty](https://github.com/cjrh/plenty): Programming language
-- [ps1go](https://github.com/cjrh/ps1go): PS1 prompt generator
-- [pwrgen](https://github.com/cjrh/pwrgen): Password and passphrase generator in rust
-- [pyconau2018-arcade2Dmultiplayer](https://github.com/cjrh/pyconau2018-arcade2Dmultiplayer): Working files for my talk at PyCon AU 2018
-- [rhymomatic](https://github.com/cjrh/rhymomatic): Static, offline, command-line rhyming dictionary
-- [rust-electron-sycamore-template](https://github.com/cjrh/rust-electron-sycamore-template): App template for Rust+Electron+Sycamore+Neon for cargo-generate
-- [scalable-cuckoo-filter-py](https://github.com/cjrh/scalable-cuckoo-filter-py): Python wrapper for sile/scalable_cuckoo_filter
-- [sembra](https://github.com/cjrh/sembra): Seam carving image resizing
-- [smt-toggle](https://github.com/cjrh/smt-toggle): System tray application toggle SMT hyperthreading on/off
-- [snaxum](https://github.com/cjrh/snaxum): Experimental Axum extension that allows python request handlers
-- [sqllogformatter](https://github.com/cjrh/sqllogformatter): A Python logging Formatter subclass for messages with SQL queries
-- [templitz](https://github.com/cjrh/templitz): File templates for faster project bootstrap
-- [terminal-menu-rs](https://github.com/cjrh/terminal-menu-rs): THIS IS NOT UPSTREAM! Forked from gitlab: https://gitlab.com/xamn/terminal-menu-rs
-- [thesauromatic-py](https://github.com/cjrh/thesauromatic-py): Python wrapper for my "thesauromatic" library.
-- [thesauromatic](https://github.com/cjrh/thesauromatic): Static, offline, command-line CLI thesaurus
-- [yet-another-python-indent](https://github.com/cjrh/yet-another-python-indent): Back to basics indentexpr for Python
+<p align="center">
+  <img src="./assets/project-map.svg" alt="A curated map of Caleb Hattingh's important public, non-fork GitHub projects" width="100%" />
+</p>
 
+## Project links
 
+The SVG is the overview; these links are here so the projects stay easy to open from GitHub.
+This is intentionally curated, not a complete index.
 
+### Headline projects
+
+- [aiorun](https://github.com/cjrh/aiorun) — a small, reliable `run()` function for asyncio applications.
+- [easycython](https://github.com/cjrh/easycython) — build Cython extensions without setup.py ceremony.
+- [autoslot](https://github.com/cjrh/autoslot) — automatic `__slots__` for lean Python classes.
+- [aiomsg](https://github.com/cjrh/aiomsg) — smart sockets and messaging protocols for network applications.
+- [excitertools](https://github.com/cjrh/excitertools) — fluent, chainable iteration helpers.
+- [misu](https://github.com/cjrh/misu) — high-speed physical quantities and dimensions in Python.
+- [deadpool](https://github.com/cjrh/deadpool) — a `ProcessPoolExecutor` implementation that is harder to break.
+- [lifter](https://github.com/cjrh/lifter) — sync single-file binaries from GitHub Releases and similar sources.
+
+### Maintained upstream
+
+- [quickwit-oss/tantivy-py](https://github.com/quickwit-oss/tantivy-py) — Python bindings for Tantivy; I am a core maintainer.
+
+### Async and reliability
+
+- [coroexecutor](https://github.com/cjrh/coroexecutor) — nursery-like coroutine execution for asyncio.
+- [dockerctx](https://github.com/cjrh/dockerctx) — context manager for Docker container lifetimes in tests.
+- [biodome](https://github.com/cjrh/biodome) — better environment variables for Python.
+
+### Developer workflows
+
+- [stackymcstackface](https://github.com/cjrh/stackymcstackface) — GitHub PR stacking tool.
+- [playpen](https://github.com/cjrh/playpen) — launch programs with memory, CPU, and path limits.
+- [clonymccloneface](https://github.com/cjrh/clonymccloneface) — clone GitHub repos and set upstreams for forks.
+- [debussy](https://github.com/cjrh/debussy) — emit JSON when the current Linux media track changes.
+
+### Language, data, and search
+
+- [thesauromatic](https://github.com/cjrh/thesauromatic) — static, offline CLI thesaurus.
+- [dictomatic](https://github.com/cjrh/dictomatic) — static, offline CLI dictionary.
+- [rhymomatic](https://github.com/cjrh/rhymomatic) — static, offline rhyming dictionary.
+
+### Newer public experiments
+
+- [diesel-clickhouse](https://github.com/cjrh/diesel-clickhouse) — Diesel ORM support for ClickHouse.
+- [diesel-paradedb](https://github.com/cjrh/diesel-paradedb) — Diesel ORM extensions for ParadeDB.
+- [chimera](https://github.com/cjrh/chimera) — experimental Axum extension for Python request handlers.
+- [iced-themer](https://github.com/cjrh/iced-themer) — configure an Iced theme from a TOML file.
+
+---
+
+<sub>Hand-curated profile README. Public, non-fork repositories only; not every public repository needs to be on the profile.</sub>
