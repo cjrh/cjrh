@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1650" viewBox="0 0 1200 1650" role="img" aria-labelledby="title desc">
   <title id="title">Caleb Hattingh public project map</title>
   <desc id="desc">A curated map of important public, non-fork projects by Caleb Hattingh, with headline projects, a maintainer note for tantivy-py, and thematic project groupings.</desc>
   <style>
@@ -31,25 +31,25 @@
     text { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .bg { fill: var(--bg); }
     .grid { stroke: var(--hairline); stroke-opacity: 0.45; }
-    .title { fill: var(--ink); font-size: 50px; font-weight: 820; letter-spacing: -1.5px; }
-    .subtitle { fill: var(--muted); font-size: 19px; }
-    .section { fill: var(--ink); font-size: 20px; font-weight: 780; letter-spacing: -0.2px; }
-    .section-note { fill: var(--muted); font-size: 13.5px; }
+    .title { fill: var(--ink); font-size: 58px; font-weight: 820; letter-spacing: -1.5px; }
+    .subtitle { fill: var(--muted); font-size: 22px; }
+    .section { fill: var(--ink); font-size: 27px; font-weight: 780; letter-spacing: -0.25px; }
+    .section-note { fill: var(--muted); font-size: 17px; }
     .card rect, .group rect, .callout rect { fill: var(--panel); stroke: var(--hairline); stroke-width: 1.2; filter: drop-shadow(0 6px 13px var(--shadow)); }
     .card.feature rect { fill: var(--panel-2); }
-    .repo { fill: var(--ink); font-size: 20px; font-weight: 760; letter-spacing: -0.2px; }
-    .bullet { fill: var(--muted); font-size: 13.2px; }
-    .copy { fill: var(--muted); font-size: 13.5px; }
-    .metric { fill: var(--muted); font-size: 13px; font-weight: 700; }
-    .pill text { fill: #ffffff; font-size: 10.5px; font-weight: 830; letter-spacing: 0.5px; }
+    .repo { fill: var(--ink); font-size: 26px; font-weight: 760; letter-spacing: -0.25px; }
+    .bullet { fill: var(--muted); font-size: 17px; }
+    .copy { fill: var(--muted); font-size: 17px; }
+    .metric { fill: var(--muted); font-size: 16px; font-weight: 700; }
+    .pill text { fill: #ffffff; font-size: 12.5px; font-weight: 830; letter-spacing: 0.5px; }
     .python { fill: var(--blue); }
     .rust { fill: var(--orange); }
     .maint { fill: var(--purple); }
-    .edge { stroke: var(--hairline); stroke-width: 1.25; stroke-dasharray: 4 8; stroke-linecap: round; opacity: 0.75; }
-    .node { fill: var(--bg); stroke-width: 3; }
-    .node.python { stroke: var(--blue); }
-    .node.rust { stroke: var(--orange); }
-    .legend { fill: var(--muted); font-size: 12.5px; }
+    .legend { fill: var(--muted); font-size: 15px; }
+    .callout .repo { font-size: 20px; }
+    .callout .copy { font-size: 13.5px; }
+    .callout .metric { font-size: 13px; }
+    .callout .pill text { font-size: 10.5px; }
   </style>
 
   <defs>
@@ -59,40 +59,41 @@
     </pattern>
   </defs>
 
-  <rect class="bg" width="1200" height="1080" rx="28" />
-  <rect width="1200" height="1080" fill="url(#dot-grid)" opacity="0.42" rx="28" />
+  <rect class="bg" width="1200" height="1650" rx="28" />
+  <rect width="1200" height="1650" fill="url(#dot-grid)" opacity="0.42" rx="28" />
 
-  <text class="title" x="60" y="76">Small, orthogonal tools</text>
-  <text class="subtitle" x="62" y="111">Curated public work: useful pieces with narrow interfaces, sharp edges, and room to compose.</text>
+  <text class="title" x="60" y="82">Small, orthogonal tools</text>
+  <text class="subtitle" x="62" y="122">Curated public work: narrow interfaces, sharp edges, and room to compose.</text>
 
-  <g class="pill" transform="translate(942 54)">
-    <rect width="86" height="28" rx="14" class="python" />
-    <text x="43" y="19" text-anchor="middle">PYTHON</text>
+  <g class="pill" transform="translate(930 58)">
+    <rect width="96" height="32" rx="16" class="python" />
+    <text x="48" y="21" text-anchor="middle">PYTHON</text>
   </g>
-  <g class="pill" transform="translate(1040 54)">
-    <rect width="68" height="28" rx="14" class="rust" />
-    <text x="34" y="19" text-anchor="middle">RUST</text>
+  <g class="pill" transform="translate(1040 58)">
+    <rect width="76" height="32" rx="16" class="rust" />
+    <text x="38" y="21" text-anchor="middle">RUST</text>
   </g>
-  <g class="pill" transform="translate(942 90)">
-    <rect width="166" height="28" rx="14" class="maint" />
-    <text x="83" y="19" text-anchor="middle">MAINTAINED UPSTREAM</text>
+  <g class="pill" transform="translate(930 98)">
+    <rect width="186" height="32" rx="16" class="maint" />
+    <text x="93" y="21" text-anchor="middle">MAINTAINED UPSTREAM</text>
   </g>
 
+  <!-- Headline projects: 3 × 3 for readable text at GitHub profile scale. -->
+  <a href="https://github.com/cjrh/aiorun"><g class="card feature" transform="translate(60 170)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">aiorun</text><text class="metric" x="276" y="42">★ 468</text><text class="copy" x="24" y="78">Async app startup, shutdown,</text><text class="copy" x="24" y="102">signals, and cancellation.</text><g class="pill" transform="translate(24 118)"><rect width="86" height="24" rx="12" class="python"/><text x="43" y="17" text-anchor="middle">PYTHON</text></g></g></a>
+  <a href="https://github.com/cjrh/easycython"><g class="card feature" transform="translate(430 170)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">easycython</text><text class="metric" x="282" y="42">★ 96</text><text class="copy" x="24" y="78">Build Cython modules without</text><text class="copy" x="24" y="102">setup.py boilerplate.</text><g class="pill" transform="translate(24 118)"><rect width="86" height="24" rx="12" class="python"/><text x="43" y="17" text-anchor="middle">PYTHON</text></g></g></a>
+  <a href="https://github.com/cjrh/autoslot"><g class="card feature" transform="translate(800 170)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">autoslot</text><text class="metric" x="282" y="42">★ 70</text><text class="copy" x="24" y="78">Automatic __slots__ for</text><text class="copy" x="24" y="102">leaner Python classes.</text><g class="pill" transform="translate(24 118)"><rect width="86" height="24" rx="12" class="python"/><text x="43" y="17" text-anchor="middle">PYTHON</text></g></g></a>
 
-  <!-- Headline projects -->
-  <a href="https://github.com/cjrh/aiorun"><g class="card feature" transform="translate(60 148)"><rect width="255" height="112" rx="18"/><text class="repo" x="20" y="34">aiorun</text><text class="metric" x="194" y="34">★ 468</text><text class="copy" x="20" y="62">Async app startup, shutdown,</text><text class="copy" x="20" y="82">signals, and cancellation.</text><g class="pill" transform="translate(20 91)"><rect width="74" height="18" rx="9" class="python"/><text x="37" y="13" text-anchor="middle">PYTHON</text></g></g></a>
-  <a href="https://github.com/cjrh/easycython"><g class="card feature" transform="translate(335 148)"><rect width="255" height="112" rx="18"/><text class="repo" x="20" y="34">easycython</text><text class="metric" x="200" y="34">★ 96</text><text class="copy" x="20" y="62">Build Cython modules without</text><text class="copy" x="20" y="82">setup.py boilerplate.</text><g class="pill" transform="translate(20 91)"><rect width="74" height="18" rx="9" class="python"/><text x="37" y="13" text-anchor="middle">PYTHON</text></g></g></a>
-  <a href="https://github.com/cjrh/autoslot"><g class="card feature" transform="translate(610 148)"><rect width="255" height="112" rx="18"/><text class="repo" x="20" y="34">autoslot</text><text class="metric" x="200" y="34">★ 70</text><text class="copy" x="20" y="62">Automatic __slots__ for</text><text class="copy" x="20" y="82">leaner Python classes.</text><g class="pill" transform="translate(20 91)"><rect width="74" height="18" rx="9" class="python"/><text x="37" y="13" text-anchor="middle">PYTHON</text></g></g></a>
-  <a href="https://github.com/cjrh/aiomsg"><g class="card feature" transform="translate(885 148)"><rect width="255" height="112" rx="18"/><text class="repo" x="20" y="34">aiomsg</text><text class="metric" x="202" y="34">★ 17</text><text class="copy" x="20" y="62">Messaging protocols and smart</text><text class="copy" x="20" y="82">sockets for network apps.</text><g class="pill" transform="translate(20 91)"><rect width="58" height="18" rx="9" class="rust"/><text x="29" y="13" text-anchor="middle">RUST</text></g></g></a>
+  <a href="https://github.com/cjrh/aiomsg"><g class="card feature" transform="translate(60 350)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">aiomsg</text><text class="metric" x="282" y="42">★ 17</text><text class="copy" x="24" y="78">Messaging protocols and smart</text><text class="copy" x="24" y="102">sockets for network apps.</text><g class="pill" transform="translate(24 118)"><rect width="70" height="24" rx="12" class="rust"/><text x="35" y="17" text-anchor="middle">RUST</text></g></g></a>
+  <a href="https://github.com/cjrh/excitertools"><g class="card feature" transform="translate(430 350)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">excitertools</text><text class="metric" x="282" y="42">★ 15</text><text class="copy" x="24" y="78">Fluent, composable iteration</text><text class="copy" x="24" y="102">without losing Python shape.</text><g class="pill" transform="translate(24 118)"><rect width="86" height="24" rx="12" class="python"/><text x="43" y="17" text-anchor="middle">PYTHON</text></g></g></a>
+  <a href="https://github.com/cjrh/misu"><g class="card feature" transform="translate(800 350)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">misu</text><text class="metric" x="282" y="42">★ 15</text><text class="copy" x="24" y="78">Fast physical quantities and</text><text class="copy" x="24" y="102">dimensions in Python.</text><g class="pill" transform="translate(24 118)"><rect width="86" height="24" rx="12" class="python"/><text x="43" y="17" text-anchor="middle">PYTHON</text></g></g></a>
 
-  <a href="https://github.com/cjrh/excitertools"><g class="card feature" transform="translate(60 286)"><rect width="255" height="112" rx="18"/><text class="repo" x="20" y="34">excitertools</text><text class="metric" x="202" y="34">★ 15</text><text class="copy" x="20" y="62">Fluent, composable iteration</text><text class="copy" x="20" y="82">without losing Python shape.</text><g class="pill" transform="translate(20 91)"><rect width="74" height="18" rx="9" class="python"/><text x="37" y="13" text-anchor="middle">PYTHON</text></g></g></a>
-  <a href="https://github.com/cjrh/misu"><g class="card feature" transform="translate(335 286)"><rect width="255" height="112" rx="18"/><text class="repo" x="20" y="34">misu</text><text class="metric" x="202" y="34">★ 15</text><text class="copy" x="20" y="62">Fast physical quantities and</text><text class="copy" x="20" y="82">dimensions in Python.</text><g class="pill" transform="translate(20 91)"><rect width="74" height="18" rx="9" class="python"/><text x="37" y="13" text-anchor="middle">PYTHON</text></g></g></a>
-  <a href="https://github.com/cjrh/deadpool"><g class="card feature" transform="translate(610 286)"><rect width="255" height="112" rx="18"/><text class="repo" x="20" y="34">deadpool</text><text class="metric" x="202" y="34">★ 18</text><text class="copy" x="20" y="62">A ProcessPoolExecutor that</text><text class="copy" x="20" y="82">is harder to break.</text><g class="pill" transform="translate(20 91)"><rect width="74" height="18" rx="9" class="python"/><text x="37" y="13" text-anchor="middle">PYTHON</text></g></g></a>
-  <a href="https://github.com/cjrh/lifter"><g class="card feature" transform="translate(885 286)"><rect width="255" height="112" rx="18"/><text class="repo" x="20" y="34">lifter</text><text class="metric" x="202" y="34">★ 17</text><text class="copy" x="20" y="62">Sync single-file binaries</text><text class="copy" x="20" y="82">from GitHub Releases.</text><g class="pill" transform="translate(20 91)"><rect width="58" height="18" rx="9" class="rust"/><text x="29" y="13" text-anchor="middle">RUST</text></g></g></a>
+  <a href="https://github.com/cjrh/deadpool"><g class="card feature" transform="translate(60 530)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">deadpool</text><text class="metric" x="282" y="42">★ 18</text><text class="copy" x="24" y="78">A ProcessPoolExecutor that</text><text class="copy" x="24" y="102">is harder to break.</text><g class="pill" transform="translate(24 118)"><rect width="86" height="24" rx="12" class="python"/><text x="43" y="17" text-anchor="middle">PYTHON</text></g></g></a>
+  <a href="https://github.com/cjrh/lifter"><g class="card feature" transform="translate(430 530)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">lifter</text><text class="metric" x="282" y="42">★ 17</text><text class="copy" x="24" y="78">Sync single-file binaries</text><text class="copy" x="24" y="102">from GitHub Releases.</text><g class="pill" transform="translate(24 118)"><rect width="70" height="24" rx="12" class="rust"/><text x="35" y="17" text-anchor="middle">RUST</text></g></g></a>
+  <a href="https://github.com/cjrh/coroexecutor"><g class="card feature" transform="translate(800 530)"><rect width="340" height="150" rx="20"/><text class="repo" x="24" y="42">coroexecutor</text><text class="metric" x="282" y="42">★ 13</text><text class="copy" x="24" y="78">Nursery-like coroutine</text><text class="copy" x="24" y="102">execution for asyncio.</text><g class="pill" transform="translate(24 118)"><rect width="86" height="24" rx="12" class="python"/><text x="43" y="17" text-anchor="middle">PYTHON</text></g></g></a>
 
-  <!-- Maintainer callout -->
+  <!-- Maintainer callout: intentionally kept compact. -->
   <a href="https://github.com/quickwit-oss/tantivy-py">
-    <g class="callout" transform="translate(60 450)">
+    <g class="callout" transform="translate(60 745)">
       <rect width="1080" height="126" rx="24" />
       <g class="pill" transform="translate(28 28)"><rect width="156" height="24" rx="12" class="maint"/><text x="78" y="16" text-anchor="middle">CORE MAINTAINER</text></g>
       <text class="repo" x="28" y="80">quickwit-oss/tantivy-py</text>
@@ -102,60 +103,60 @@
     </g>
   </a>
 
-  <!-- Thematic groupings -->
-  <g class="group" transform="translate(60 632)">
-    <rect width="340" height="168" rx="18" />
-    <text class="section" x="22" y="34">Async &amp; reliability</text>
-    <text class="section-note" x="22" y="58">Making service lifecycles explicit.</text>
-    <text class="bullet" x="22" y="88">• aiorun — startup, shutdown, signals</text>
-    <text class="bullet" x="22" y="112">• deadpool — resilient process pools</text>
-    <text class="bullet" x="22" y="136">• coroexecutor — nursery-like execution</text>
+  <!-- Thematic groupings: 2 columns with larger type. -->
+  <g class="group" transform="translate(60 930)">
+    <rect width="520" height="190" rx="20" />
+    <text class="section" x="28" y="42">Async &amp; reliability</text>
+    <text class="section-note" x="28" y="72">Making service lifecycles explicit.</text>
+    <text class="bullet" x="28" y="112">• aiorun — startup, shutdown, signals</text>
+    <text class="bullet" x="28" y="140">• deadpool — resilient process pools</text>
+    <text class="bullet" x="28" y="168">• coroexecutor — nursery-like execution</text>
   </g>
 
-  <g class="group" transform="translate(430 632)">
-    <rect width="340" height="168" rx="18" />
-    <text class="section" x="22" y="34">Developer workflows</text>
-    <text class="section-note" x="22" y="58">Tools that remove one annoying step.</text>
-    <text class="bullet" x="22" y="88">• lifter — sync release binaries</text>
-    <text class="bullet" x="22" y="112">• stackymcstackface — stacked PRs</text>
-    <text class="bullet" x="22" y="136">• clonymccloneface — clone with upstreams</text>
+  <g class="group" transform="translate(620 930)">
+    <rect width="520" height="190" rx="20" />
+    <text class="section" x="28" y="42">Developer workflows</text>
+    <text class="section-note" x="28" y="72">Tools that remove one annoying step.</text>
+    <text class="bullet" x="28" y="112">• lifter — sync release binaries</text>
+    <text class="bullet" x="28" y="140">• stackymcstackface — stacked PRs</text>
+    <text class="bullet" x="28" y="168">• clonymccloneface — clone with upstreams</text>
   </g>
 
-  <g class="group" transform="translate(800 632)">
-    <rect width="340" height="168" rx="18" />
-    <text class="section" x="22" y="34">Language, data &amp; search</text>
-    <text class="section-note" x="22" y="58">Offline words, indexing, compact ideas.</text>
-    <text class="bullet" x="22" y="88">• tantivy-py — Python search bindings</text>
-    <text class="bullet" x="22" y="112">• thesauromatic — offline thesaurus</text>
-    <text class="bullet" x="22" y="136">• dictomatic / rhymomatic — word tools</text>
+  <g class="group" transform="translate(60 1160)">
+    <rect width="520" height="190" rx="20" />
+    <text class="section" x="28" y="42">Language, data &amp; search</text>
+    <text class="section-note" x="28" y="72">Offline words, indexing, compact ideas.</text>
+    <text class="bullet" x="28" y="112">• tantivy-py — Python search bindings</text>
+    <text class="bullet" x="28" y="140">• thesauromatic — offline thesaurus</text>
+    <text class="bullet" x="28" y="168">• dictomatic / rhymomatic — word tools</text>
   </g>
 
-  <g class="group" transform="translate(60 832)">
-    <rect width="340" height="168" rx="18" />
-    <text class="section" x="22" y="34">Python ergonomics</text>
-    <text class="section-note" x="22" y="58">Small APIs that hide machinery.</text>
-    <text class="bullet" x="22" y="88">• autoslot — leaner object models</text>
-    <text class="bullet" x="22" y="112">• excitertools — composable iteration</text>
-    <text class="bullet" x="22" y="136">• easycython / misu — speed without fuss</text>
+  <g class="group" transform="translate(620 1160)">
+    <rect width="520" height="190" rx="20" />
+    <text class="section" x="28" y="42">Python ergonomics</text>
+    <text class="section-note" x="28" y="72">Small APIs that hide machinery.</text>
+    <text class="bullet" x="28" y="112">• autoslot — leaner object models</text>
+    <text class="bullet" x="28" y="140">• excitertools — composable iteration</text>
+    <text class="bullet" x="28" y="168">• easycython / misu — speed without fuss</text>
   </g>
 
-  <g class="group" transform="translate(430 832)">
-    <rect width="340" height="168" rx="18" />
-    <text class="section" x="22" y="34">Runtime boundaries</text>
-    <text class="section-note" x="22" y="58">Where processes, containers, env meet.</text>
-    <text class="bullet" x="22" y="88">• dockerctx — scoped containers</text>
-    <text class="bullet" x="22" y="112">• biodome — environment configuration</text>
-    <text class="bullet" x="22" y="136">• playpen / chimera — process edges</text>
+  <g class="group" transform="translate(60 1390)">
+    <rect width="520" height="190" rx="20" />
+    <text class="section" x="28" y="42">Runtime boundaries</text>
+    <text class="section-note" x="28" y="72">Where processes, containers, env meet.</text>
+    <text class="bullet" x="28" y="112">• dockerctx — scoped containers</text>
+    <text class="bullet" x="28" y="140">• biodome — environment configuration</text>
+    <text class="bullet" x="28" y="168">• playpen / chimera — process edges</text>
   </g>
 
-  <g class="group" transform="translate(800 832)">
-    <rect width="340" height="168" rx="18" />
-    <text class="section" x="22" y="34">Rust experiments</text>
-    <text class="section-note" x="22" y="58">Database bindings, UI, systems glue.</text>
-    <text class="bullet" x="22" y="88">• diesel-clickhouse / diesel-paradedb</text>
-    <text class="bullet" x="22" y="112">• iced-themer — declarative themes</text>
-    <text class="bullet" x="22" y="136">• debussy / aiomsg — desktop + network</text>
+  <g class="group" transform="translate(620 1390)">
+    <rect width="520" height="190" rx="20" />
+    <text class="section" x="28" y="42">Rust experiments</text>
+    <text class="section-note" x="28" y="72">Database bindings, UI, systems glue.</text>
+    <text class="bullet" x="28" y="112">• diesel-clickhouse / diesel-paradedb</text>
+    <text class="bullet" x="28" y="140">• iced-themer — declarative themes</text>
+    <text class="bullet" x="28" y="168">• debussy / aiomsg — desktop + network</text>
   </g>
 
-  <text class="legend" x="60" y="1044">Hand-curated SVG: public, non-fork work only. The README repeats links for GitHub accessibility and navigation.</text>
+  <text class="legend" x="60" y="1620">Hand-curated SVG: public, non-fork work only. The README repeats links for GitHub accessibility and navigation.</text>
 </svg>

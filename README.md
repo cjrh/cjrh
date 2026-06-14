@@ -23,6 +23,7 @@ This is intentionally curated, not a complete index.
 - [misu](https://github.com/cjrh/misu) — high-speed physical quantities and dimensions in Python.
 - [deadpool](https://github.com/cjrh/deadpool) — a `ProcessPoolExecutor` implementation that is harder to break.
 - [lifter](https://github.com/cjrh/lifter) — sync single-file binaries from GitHub Releases and similar sources.
+- [coroexecutor](https://github.com/cjrh/coroexecutor) — nursery-like coroutine execution for asyncio.
 
 ### Maintained upstream
 
@@ -30,7 +31,6 @@ This is intentionally curated, not a complete index.
 
 ### Async and reliability
 
-- [coroexecutor](https://github.com/cjrh/coroexecutor) — nursery-like coroutine execution for asyncio.
 - [dockerctx](https://github.com/cjrh/dockerctx) — context manager for Docker container lifetimes in tests.
 - [biodome](https://github.com/cjrh/biodome) — better environment variables for Python.
 
