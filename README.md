@@ -57,4 +57,4 @@ This is intentionally curated, not a complete index.
 ---
 
 This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface. <br />
-— [Unix Time-Sharing System (preface), McIlroy, Pinson and Tague, 1978](https://archive.org/details/bstj57-6-1899">Unix Time-Sharing System (preface), McIlroy, Pinson and Tague, 1978)
+— [Unix Time-Sharing System (preface), McIlroy, Pinson and Tague, 1978](https://archive.org/details/bstj57-6-1899)
