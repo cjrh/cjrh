@@ -56,4 +56,7 @@ This is intentionally curated, not a complete index.
 
 ---
 
-<sub>Hand-curated profile README. Public, non-fork repositories only; not every public repository needs to be on the profile.</sub>
+<sub>
+This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface. <br />
+— <a ref="https://archive.org/details/bstj57-6-1899">Unix Time-Sharing System (preface), McIlroy, Pinson and Tague, 1978</a>
+</sub>
